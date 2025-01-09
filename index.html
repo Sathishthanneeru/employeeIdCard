@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="idCard()">clickme</button>
+    <script>
+        function idCard(){
+            let div1=document.createElement("div");
+        div1.style.width="200px"
+        div1.style.height="360px"
+        div1.style.border="2px solid black"
+        div1.style.padding="20px"
+        div1.style.backgroundColor="aqua"
+        div1.style.backgroundImage = "url('https://i.pinimg.com/236x/9f/2a/7b/9f2a7ba4c1486e705f1b086bbefdca4a.jpg')";
+        div1.style.backgroundPosition="center"
+        document.body.append(div1)
+        let image= document.createElement("img");
+        image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_NEc8A16sOFBrLMoOcBUwFZlZ84A9UzfRw&s");
+        image.style.height="100px"
+        image.style.width="100px"
+        image.style.marginLeft="50px"
+        div1.append(image);
+        let title=document.createElement("h4");
+        title.innerHTML="<center>THANNEERU SATHISH</center>"
+        div1.append(title)
+        let title1=document.createElement("h5");
+        title1.innerHTML="<center>CREATIVE DESIGNER<center>"
+        div1.append(title1)
+        let desc = document.createElement("p")
+        desc.innerHTML="<center><b>Id NO:</b> 00001233</center>"
+        div1.append(desc)
+        let desc1=document.createElement("p")
+        desc1.innerHTML="<center><b>DOB:</b>07-12-2000</center>"
+        div1.append(desc1)
+        let desc2=document.createElement("p")
+        desc2.innerHTML="<center><b>Phone:</b>1234567890</center>"
+        div1.append(desc2)
+        let desc3=document.createElement("p")
+        desc3.innerHTML="<center><b>E-mail:</b>sas@gmal.com</center>"
+        div1.append(desc3)
+        let image1=document.createElement("img");
+        image1.setAttribute("src","https://png.pngtree.com/png-clipart/20230816/original/pngtree-realistic-black-barcode-icon-on-blank-background-picture-image_7980087.png")
+        image1.style.height="200px"
+        image1.style.width="260px"
+        image1.style.marginLeft="-30px"
+        image1.style.marginTop="-80px"
+        div1.append(image1)
+        let div2 =document.createElement("div")
+        div2.style.width="200px"
+        div2.style.height="360px"
+        div2.style.padding="20px"
+        div2.style.border="2px solid black"
+        div2.style.marginLeft="300px"
+        div2.style.marginTop="-405px"
+        div2.style.backgroundImage="url('https://i.pinimg.com/236x/9f/2a/7b/9f2a7ba4c1486e705f1b086bbefdca4a.jpg')"
+        div2.style.backgroundPosition="center"
+        document.body.append(div2)
+        let desc4 =document.createElement("h1")
+        desc4.innerHTML="<center>INFOSYS</center>"
+        div2.append(desc4)
+        let desc4_1=document.createElement("h5")
+        desc4_1.innerHTML="TERMS AND CONDITIONS"
+        div2.append(desc4_1)
+        let desc5=document.createElement("p")
+        desc5.innerHTML="<li>Infosys deletes personal data that is no longer required in a secure manner.</li>"
+        div2.append(desc5)
+        let desc6=document.createElement("p")
+        desc6.innerHTML="<li>Infosys adopts security practices and procedures to protect personal data.</li>"
+        div2.append(desc6)
+        let desc7=document.createElement("p")
+        desc7.innerHTML="<li>Authorized internal Infosys teams and authorized vendors can access personal data.</li>"
+        div2.append(desc7)
+        let image2=document.createElement("img")
+        image2.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLg97rY5KR23KyzTAGuen5lbl_pSHdymwJ6Q&s")
+        image2.style.width="100px"
+        image2.style.marginLeft="100px"
+        div2.append(image2)
+        }
+    </script>
+</body>
+</html>
